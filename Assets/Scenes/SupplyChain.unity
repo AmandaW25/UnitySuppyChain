@@ -378,8 +378,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4280230126
-  m_fontColor: {r: 0.9333334, g: 0.1254902, b: 0.121568635, a: 1}
+    rgba: 4294926848
+  m_fontColor: {r: 0, g: 0.38431373, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -396,8 +396,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 3.25
-  m_fontSizeBase: 3.25
+  m_fontSize: 3.5
+  m_fontSizeBase: 3.5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -647,8 +647,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4280230126
-  m_fontColor: {r: 0.9333334, g: 0.1254902, b: 0.121568635, a: 1}
+    rgba: 4294926848
+  m_fontColor: {r: 0, g: 0.384089, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -665,8 +665,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 3.25
-  m_fontSizeBase: 3.25
+  m_fontSize: 3.5
+  m_fontSizeBase: 3.5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2128,8 +2128,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4280230126
-  m_fontColor: {r: 0.9333334, g: 0.1254902, b: 0.121568635, a: 1}
+    rgba: 4294926848
+  m_fontColor: {r: 0, g: 0.38431373, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2146,8 +2146,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 3.25
-  m_fontSizeBase: 3.25
+  m_fontSize: 3.5
+  m_fontSizeBase: 3.5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2300,8 +2300,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4280230126
-  m_fontColor: {r: 0.9333334, g: 0.1254902, b: 0.121568635, a: 1}
+    rgba: 4294926848
+  m_fontColor: {r: 0, g: 0.38431373, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2318,8 +2318,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 3.25
-  m_fontSizeBase: 3.25
+  m_fontSize: 3.5
+  m_fontSizeBase: 3.5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3123,8 +3123,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4280230126
-  m_fontColor: {r: 0.9333334, g: 0.1254902, b: 0.121568635, a: 1}
+    rgba: 4294926848
+  m_fontColor: {r: 0, g: 0.38431373, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3141,8 +3141,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 3.25
-  m_fontSizeBase: 3.25
+  m_fontSize: 3.5
+  m_fontSizeBase: 3.5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4079,6 +4079,10 @@ PrefabInstance:
       propertyPath: binCapsule
       value: 
       objectReference: {fileID: 2263059694734571435, guid: 2101a9827bb065346bbdb71c99ea49ea, type: 3}
+    - target: {fileID: 2263059694734571430, guid: 2101a9827bb065346bbdb71c99ea49ea, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d111b2658e130214aa7f12e8b9b5bd32, type: 2}
     - target: {fileID: 2263059694734571432, guid: 2101a9827bb065346bbdb71c99ea49ea, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -4193,9 +4197,13 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2521905070594023275, guid: 5ac8d15596b8cb243bc97a9d62f1bbc1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d111b2658e130214aa7f12e8b9b5bd32, type: 2}
+    - target: {fileID: 2521905070594023275, guid: 5ac8d15596b8cb243bc97a9d62f1bbc1, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: 3126148372f91a941a7e416b4f3b4a77, type: 2}
+      objectReference: {fileID: 2100000, guid: d111b2658e130214aa7f12e8b9b5bd32, type: 2}
     - target: {fileID: 2521905070594023275, guid: 5ac8d15596b8cb243bc97a9d62f1bbc1, type: 3}
       propertyPath: m_Materials.Array.data[2]
       value: 
@@ -4209,6 +4217,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1799918296}
     m_Modifications:
+    - target: {fileID: 2842217844385432176, guid: 657df3a49c86a1a4e9109bf536ee606d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d111b2658e130214aa7f12e8b9b5bd32, type: 2}
     - target: {fileID: 2842217844385432178, guid: 657df3a49c86a1a4e9109bf536ee606d, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -4278,6 +4290,10 @@ PrefabInstance:
       propertyPath: maxCap
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 6096354277252104121, guid: e8492a761a2c61e4ca1cd4a53e219734, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d111b2658e130214aa7f12e8b9b5bd32, type: 2}
     - target: {fileID: 6096354277252104123, guid: e8492a761a2c61e4ca1cd4a53e219734, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -4391,5 +4407,9 @@ PrefabInstance:
       propertyPath: binCapsule
       value: 
       objectReference: {fileID: 7170381852924299208, guid: b8c18d45d1bd3c44c85f77599a8acaeb, type: 3}
+    - target: {fileID: 7170381852924299215, guid: b8c18d45d1bd3c44c85f77599a8acaeb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d111b2658e130214aa7f12e8b9b5bd32, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8c18d45d1bd3c44c85f77599a8acaeb, type: 3}
